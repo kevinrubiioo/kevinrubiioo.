@@ -1,0 +1,59 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(141, 241, 236);
+}
+#headerContenedor{
+    background-color: rgba(131, 158, 132, 0.062);
+    width: 100%;
+    height: 100px;   
+}
+
+.enlace{
+    position: absolute;
+    padding: 5px 50px;
+}
+.logo{
+    height: 65px;
+}
+div ul{
+    margin-top: 0.5%;
+    float: right;
+    margin-right: 20px;
+}
+div ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+div ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #151518;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+

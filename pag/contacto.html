@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylos/estylos.css">
+    <link rel="stylesheet" href="../stylos/stylosFlex.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="headerContenedor">
+                    <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="../img/logo.png" alt="" class="logo">
+        </a>
+        <ul>            
+            <li><a href="../index.html">Kevin</a></li>
+            <li><a href="./portafolio.html">Portafolio</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </div>
+    </header>
+    <article>
+        <div class="conteArti">
+            <div class="articulo" >
+                <form action="https://formsubmit.co/kevinrubiioo3@gmail.com" method="POST">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <br>                   
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <br>
+                    <textarea name="comentarios" rows="10" cols="40" name="comentarios " placeholder="escrive un comentario "></textarea>
+                    <br>
+                    <input type="submit">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+    </article>   
+</body>
+</html>

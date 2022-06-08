@@ -1,0 +1,56 @@
+.flexContiner{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:rgba(210, 105, 30, 0);
+    padding: 10px;
+}
+.flexContiner .cont{
+  
+    color: rgb(204, 212, 212);
+    flex-wrap: wrap;
+    width:640px;
+    background-color: rgba(127, 255, 212, 0);
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: auto;
+}
+.flexContiner .cont .kevin{
+float: right;
+width: 75%;
+
+}
+.flexContiner .cont .leng1{
+    width: 200px;
+}
+.flexContiner .cont .java{
+    width: 130px;
+}
+.flexContiner .cont .php{
+    width:170px
+}
+
+.articulo{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 30px;
+    right: 20%;
+    left: 20%;
+    position: absolute;
+    background-color: rgba(250, 235, 215, 0.185);
+    width:60%;
+}
+.articulo .diag{
+    width:600px;
+    height: 900;
+    
+}
+.conteArti{
+    padding: 30px;   
+}
+.video{
+    width:200px ;
+    position:relative;
+    left: 30%;
+}
